@@ -11,6 +11,10 @@
                 var num = document.getElementById("n1");
                 num.value = Math.sin(num.value);
             }
+            function powCuston(exponente){
+                var num = document.getElementById("n1");
+                num.value = Math.pow(num.value, exponente);
+            } 
         </script>
     </head>
     <body>
@@ -19,6 +23,7 @@
         <p>
             <button onclick="cube()"> x^3 </button>
             <button onclick="sin()"> Sin(x) </button>
+            <button onclick="powCuston(4)"> x^4 </button>
         </p>
     </body>
 </html>
